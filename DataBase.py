@@ -2,7 +2,7 @@ import sqlite3 as sql
 
 #Classe que representa o banco de dados, sua conexão e persistência
 class DataBase():
-    database    = "clientes.db"
+    database    = "contatos.db"
     conn        = None
     cur         = None
     connected   = False
