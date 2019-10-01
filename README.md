@@ -26,7 +26,8 @@ ________________________________________________________________________________
 ## Implementação:
 O desafio foi realizado em Python, com SQLite para armazenar os dados.
 
-Foram criados 3 arquivos: App, DataBase e GUI.
+Foram criados 3 arquivos: App.py, DataBase.py e GUI.py. 
+O arquivo contatos.db representa o banco populado com pequenos exemplos.
 
 DataBase cria o banco e dados, sua conexão e persistência além dos métodos CRUD
 
