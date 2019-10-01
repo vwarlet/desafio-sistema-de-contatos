@@ -21,4 +21,11 @@ Dado que estou cadastro um novo contato quando eu clicar na ação Cancelar  eu 
 
 Dado que estou com a lista de contatos carregada quando eu clicar na ação Excluir eu quero excluir um contato da lista 
  
- 
+=================================================================================================================================
+
+## Implementação:
+O desafio foi realizado em Python, com SQLite para armazenar os dados.
+Foram criados 3 arquivos: App, DataBase e GUI.
+DataBase cria o banco e dados, sua conexão e persistência além dos métodos CRUD
+GUI é a interface gráfica, criada com a biblioteca nativa Tkinter, além da janela principal para listar os contatos, atualizá-los ou deletá-los, há uma janela que é criada ao clicar para incluir um novo contato.
+App realiza as ações do desafio, relacionando as ações dos botões com os dados armazenados.
