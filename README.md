@@ -2,13 +2,13 @@
  
 O desafio abaixo pode ser realizado em qualquer linguagem e/ou ferramenta. A entrega do desafio deve ser feita via repositório público GIT. Se não for possível concluir, enviar o que foi feito. Este desafio não é eliminatório, apenas para nivelamento. Utilize os recursos que preferir. 
  
-História: 
+### História:
 Como coordenador de desenvolvimento, eu quero armazenar os cartões que de contatos que recebo dos fornecedores, para que eu não perca os contatos e não tenha que ficar com os cartões físicos; 
  
-Conversa: 
+### Conversa:
 A ideia seria ter uma lista de contatos categorizada, onde fosse possível adicionar novos contatos e categorizá-los por tipo de empresa e assunto. Pode ser uma tela única, que me permite buscar um contato e incluir novos. 
  
-Confirmação: 
+### Confirmação:
 Dado que acessei o sistema de contatos Quando eu clicar na ação Carregar Eu quero que os contatos armazenados sejam carregados em forma de lista ou grade de maneira que todos os dados do contato sejam visíveis 
 
 Dado que estou no sistema de contratos e preenchi os filtros de busca quando eu clicar na ação Carregar eu quero ver a lista de contatos em ordem alfabética por empresa que condizem com o filtro que especifiquei 
