@@ -1,5 +1,6 @@
 import sqlite3 as sql
 
+#Classe que representa o banco de dados, sua conexão e persistência
 class DataBase():
     database    = "clientes.db"
     conn        = None
@@ -35,7 +36,7 @@ class DataBase():
         else:
             return False
 
-
+#Inicialização e CRUD
 def initDB():
     db = DataBase()
     db.connect()
