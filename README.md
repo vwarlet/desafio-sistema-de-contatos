@@ -21,7 +21,7 @@ Dado que estou cadastro um novo contato quando eu clicar na ação Cancelar  eu 
 
 Dado que estou com a lista de contatos carregada quando eu clicar na ação Excluir eu quero excluir um contato da lista 
  
-===========================================================================================
+________________________________________________________________________________________
 
 ## Implementação:
 O desafio foi realizado em Python, com SQLite para armazenar os dados.
