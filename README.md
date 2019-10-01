@@ -26,10 +26,10 @@ ________________________________________________________________________________
 ## Implementação:
 O desafio foi realizado em Python, com SQLite para armazenar os dados (arquivo contatos.db, está populado aleatoriamente como um pequeno exemplo).
 
-Foram criados 3 arquivos: App.py, DataBase.py e GUI.py. 
+Foram criados 3 arquivos: App, DataBase e GUI. O arquivo 
 
-DataBase cria o banco e dados, sua conexão e persistência além dos métodos CRUD
+**DataBase** cria o banco e dados, sua conexão e persistência além dos métodos CRUD
 
-GUI é a interface gráfica, criada com a biblioteca nativa Tkinter, além da janela principal para listar os contatos, atualizá-los ou deletá-los, há uma janela que é criada ao clicar para incluir um novo contato.
+**GUI** é a interface gráfica, criada com a biblioteca nativa Tkinter, além da janela principal para listar os contatos, atualizá-los ou deletá-los, há uma janela que é criada ao clicar para incluir um novo contato.
 
-App realiza as ações do desafio, relacionando as ações dos botões com os dados armazenados.
+**App** é o arquivo a ser executado. Realiza as ações do desafio, relacionando as ações dos botões com os dados armazenados.
