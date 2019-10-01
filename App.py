@@ -1,8 +1,10 @@
 from GUI import *
 import DataBase as db
 
+#Referencia a janela principal, para utilizar seus campos
 app = None
 
+#Função dos botões da janela principal, referem-se ao banco de dados
 def view_command():
     if app.txtNome.get()=="" and app.txtCargo.get()=="" and app.txtEmpresa.get()=="" and app.txtTipoEmpresa.get()=="" and app.txtTelefone.get()=="" and app.txtEmail.get()=="" and app.txtAssunto.get()=="":
         rows = db.view()
@@ -47,7 +49,7 @@ def getSelectedRow(event):
     app.entAssunto.insert(END, selected[7])
     return selected
 
-
+#Chama a janela principal
 if __name__ == "__main__":
     app = Gui()
     app.listClientes.bind('<<ListboxSelect>>', getSelectedRow)
@@ -55,6 +57,5 @@ if __name__ == "__main__":
     app.btnInserir.configure(command=incluirGui)
     app.btnAtualizar.configure(command=update_command)
     app.btnExcluir.configure(command=del_command)
-    
     
     app.run()
