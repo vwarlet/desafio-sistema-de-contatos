@@ -24,10 +24,9 @@ Dado que estou com a lista de contatos carregada quando eu clicar na ação Excl
 ________________________________________________________________________________________
 
 ## Implementação:
-O desafio foi realizado em Python, com SQLite para armazenar os dados.
+O desafio foi realizado em Python, com SQLite para armazenar os dados (arquivo contatos.db, está populado aleatoriamente como um pequeno exemplo).
 
 Foram criados 3 arquivos: App.py, DataBase.py e GUI.py. 
-O arquivo contatos.db representa o banco populado com pequenos exemplos.
 
 DataBase cria o banco e dados, sua conexão e persistência além dos métodos CRUD
 
