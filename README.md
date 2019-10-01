@@ -32,4 +32,4 @@ Foram criados 3 arquivos: App, DataBase e GUI. O arquivo
 
 **GUI** é a interface gráfica, criada com a biblioteca nativa Tkinter, além da janela principal para listar os contatos, atualizá-los ou deletá-los, há uma janela que é criada ao clicar para incluir um novo contato.
 
-**App** é o arquivo a ser executado. Realiza as ações do desafio, relacionando as ações dos botões com os dados armazenados.
+**App** *é o arquivo a ser executado*. Realiza as ações do desafio, relacionando as ações dos botões com os dados armazenados.
