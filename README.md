@@ -1,7 +1,5 @@
 # Desafio: Sistema de contatos 
- 
-O desafio abaixo pode ser realizado em qualquer linguagem e/ou ferramenta. A entrega do desafio deve ser feita via repositório público GIT. Se não for possível concluir, enviar o que foi feito. Este desafio não é eliminatório, apenas para nivelamento. Utilize os recursos que preferir. 
- 
+
 ### História:
 Como coordenador de desenvolvimento, eu quero armazenar os cartões que de contatos que recebo dos fornecedores, para que eu não perca os contatos e não tenha que ficar com os cartões físicos; 
  
